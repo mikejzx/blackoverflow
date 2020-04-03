@@ -1,0 +1,14 @@
+{
+	"manifest_version": 2,
+	"name": "BlackOverflow",
+	"version": "0.1",
+
+	"description": "Enables dark theme on the StackOverflow site without needing to be signed in.",
+
+	"content_scripts": [
+		{
+			"matches": ["*://*.stackoverflow.com/*"],
+			"js": ["blackoverflow.js"]
+		}
+	]
+}
