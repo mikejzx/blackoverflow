@@ -9,6 +9,10 @@
 		{
 			"matches": ["*://*.stackoverflow.com/*"],
 			"js": ["blackoverflow.js"]
+		},
+		{
+			"matches": ["*://*.github.com/*"],
+			"js": ["github-dark.js"]
 		}
 	]
 }
